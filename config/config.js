@@ -39,7 +39,7 @@ export const navigation = {
     },
     {
       title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      link: "#",
     }
   ],
 }
