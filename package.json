@@ -1,14 +1,14 @@
 {
   "name": "portfolio",
   "description": "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-  "homepage": "http://hashirshoaeb.com",
+  "homepage": "http://edgarpsda.github.io",
   "version": "0.2.0",
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "Hashir Shoaib",
-    "email": "hashirshoaeb@gmail.com",
-    "url": "https://github.com/hashirshoaeb"
+    "name": "Edgar Posada",
+    "email": "edgar.psda@gmail.com",
+    "url": "https://github.com/edgarpsda"
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
@@ -17,7 +17,7 @@
     "start": "next start",
     "export": "next export",
     "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
-    "deploy": "npm run custom-domain && node scripts/pages.js hashirshoaeb master",
+    "deploy": "npm run custom-domain && node scripts/pages.js edgarpsda gh-pages2",
     "custom-domain": "node scripts/cname.js hashirshoaeb.com www.hashirshoaeb.com",
     "lint": "next lint"
   },
@@ -27,6 +27,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.2.1",
+    "gh-pages": "^6.1.1",
     "next": "12.3.0",
     "portfolio": "file:",
     "react": "18.2.0",
@@ -36,7 +37,6 @@
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
     "favicons": "^6.2.2",
-    "gh-pages": "^4.0.0",
     "sass": "^1.54.9"
   }
 }
