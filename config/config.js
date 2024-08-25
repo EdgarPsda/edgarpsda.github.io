@@ -39,7 +39,7 @@ export const navigation = {
     },
     {
       title: "Blog",
-      link: "#",
+      link: "/blog",
     }
   ],
 }
@@ -55,7 +55,7 @@ export const intro = {
     },
     {
       title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      link: "https://docs.google.com/document/d/1p3knndPYhFbjelb3z4xVI6opvwelJdik-zccPSv-nY4/edit?usp=sharing",
       isPrimary: false,
     },
   ],
@@ -245,7 +245,7 @@ export const links = {
   cards: [
     {
       title: "My website",
-      link: "#",
+      link: "https://edgarpsda.github.io/",
     },
     {
       title: "My X",
