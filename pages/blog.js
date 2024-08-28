@@ -5,6 +5,7 @@ import { Skills, Projects, Grafito, Experience } from '../components/Work';
 import { Footer, Contact } from '../components/Footer';
 import { about, contact, intro, navigation, projects, SEO, work, grafito, experience } from '../config/config';
 import { Header } from '../components/Header';
+import BlogBanner from '../components/BlogBanner';
 
 export default function Home() {
   return (
@@ -14,11 +15,7 @@ export default function Home() {
         title={navigation.name}
         links={navigation.links}
       />
-      <div className="d-flex flex-column justify-content-between bg-secondary min-vh-100">
-        <div className="py-5 px-5 container text-center">
-          <h1>Be patient, I'm working on this</h1>
-        </div>
-      </div>
+      <BlogBanner></BlogBanner>
       <Contact
         title={contact.title}
         description={contact.description}
